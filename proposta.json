@@ -1,0 +1,358 @@
+{
+  "slug": "abba-estetica",
+  "negocio": {
+    "nome": "ABBA Centro de Estética",
+    "logo": "brand/logo.jpg",
+    "whatsapp": "554333479851",
+    "telefone": "(43) 3347-9851",
+    "funcionamento": {
+      "seg": "08:00-18:00",
+      "ter": "08:00-18:00",
+      "qua": "08:00-18:00",
+      "qui": "08:00-18:00",
+      "sex": "08:00-18:00",
+      "sab": "08:00-13:00",
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Lima Azevedo · Londrina",
+        "endereco": "R. Pedro Marcos Prado, 50 – Lima Azevedo, Londrina – PR, 86060-070",
+        "telefone": "(43) 3347-9851",
+        "horario": "Segunda a sexta, 8h às 18h · Sábado, 8h às 13h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#6E4294",
+    "brand2": "#4A2A6A",
+    "ink": "#241C3A",
+    "bg": "#FCFAFD",
+    "pulse": "#9A6CC0",
+    "radius": "18px",
+    "registro": "editorial",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "Montserrat",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "A casa",
+            "href": "#casa"
+          },
+          {
+            "texto": "Avaliações",
+            "href": "#depoimentos"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Centro de estética · Londrina",
+        "h1": "Do rosto às unhas, numa casa só",
+        "lead": "No Lima Azevedo, a ABBA junta limpeza de pele, drenagem, massagem, lash e manicure numa casa só. Você marca tudo numa conversa e resolve na mesma tarde.",
+        "cta": "Marcar pelo WhatsApp",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/fachada.jpg",
+        "imagemAlt": "Fachada branca da ABBA Centro de Estética, com o nome em letras roxas e palmeira ao lado",
+        "tarja": [
+          "Mais de 30 anos cuidando de você",
+          "4,9 no Google, 88 avaliações",
+          "Sábado das 8h à uma da tarde",
+          "Entrada acessível para cadeira de rodas"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Limpeza de pele",
+          "Drenagem",
+          "Massagem relaxante",
+          "Extensão de cílios",
+          "Sobrancelha",
+          "Ultraplace",
+          "Crioterapia",
+          "Barras de Access",
+          "Manicure e pedicure",
+          "Alongamento de unhas"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "A ABBA",
+        "texto": [
+          "São mais de trinta anos cuidando de gente em Londrina, e o jeito continua o mesmo: atenção da recepção até o fim do procedimento.",
+          "Tem quem venha pela limpeza de pele e descubra que dá para fazer sem dor. Tem quem venha pela unha e saia com a drenagem marcada. Aqui, autocuidado é parar uma hora e deixar alguém cuidar de você."
+        ],
+        "imagem": "midia/espera.jpg",
+        "imagemAlt": "Sala de espera da ABBA, com cadeiras pretas, quadros na parede e o logo da clínica em azul"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "Do rosto às unhas. A indicação sai de uma conversa com a profissional, olhando o que você quer cuidar.",
+        "itens": [
+          {
+            "nome": "Limpeza de pele",
+            "descricao": "Higienização, extração feita com cuidado e ativos para o seu tipo de pele. Nas avaliações, a frase que mais aparece é que não doeu.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Drenagem e massagem",
+            "descricao": "Drenagem para quem sente o corpo pesado e massagem relaxante para a tensão da semana. Atende mulheres e homens, de qualquer idade.",
+            "icone": "spa"
+          },
+          {
+            "nome": "Estética corporal",
+            "descricao": "Protocolos não invasivos com Ultraplace e crioterapia para o contorno do corpo, com acompanhamento da profissional a cada sessão.",
+            "icone": "mao",
+            "imagem": "midia/sala-corpo.jpg"
+          },
+          {
+            "nome": "Cílios e sobrancelha",
+            "descricao": "Extensão de cílios, design de sobrancelha e depilação de buço, para o olhar ficar pronto sem maquiagem.",
+            "icone": "olho"
+          },
+          {
+            "nome": "Unhas",
+            "descricao": "Manicure, pedicure, esmaltação em gel e alongamento no molde F1, com formato e cor escolhidos na hora.",
+            "icone": "unha",
+            "imagem": "midia/unhas.jpg"
+          },
+          {
+            "nome": "Barras de Access",
+            "descricao": "Uma hora de toques suaves em 32 pontos da cabeça. É a sessão para quem precisa desacelerar a mente.",
+            "duracao": "cerca de 1 hora",
+            "icone": "cerebro"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/casa.html"
+    },
+    {
+      "id": "tecnologias",
+      "variant": "grade",
+      "data": {
+        "titulo": "Aparelhos da casa",
+        "itens": [
+          {
+            "nome": "Ultraplace",
+            "detalhe": "contorno corporal, não invasivo",
+            "icone": "ultrassom"
+          },
+          {
+            "nome": "Ultrafocus",
+            "detalhe": "protocolos faciais e corporais",
+            "icone": "ultrassom"
+          },
+          {
+            "nome": "Crioterapia",
+            "detalhe": "frio aplicado no corpo",
+            "icone": "gota"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Pelo WhatsApp",
+        "titulo": "Marcar é uma conversa curta",
+        "lead": "A recepção responde no mesmo número da clínica e encaixa os horários um depois do outro.",
+        "cta": "Chamar a ABBA",
+        "contato": "ABBA Centro de Estética",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Queria fazer cílios e a mão no mesmo dia. Dá?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Dá sim! Sábado às 9h os cílios e, em seguida, a manicure. Pode ser?"
+          },
+          {
+            "de": "paciente",
+            "texto": "Perfeito. Quanto tempo leva tudo?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Umas três horas com calma. Está reservado, te esperamos no sábado."
+          }
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "Quem conhece, volta",
+        "itens": [
+          {
+            "valor": "30+",
+            "rotulo": "anos cuidando de Londrina",
+            "contar": 30
+          },
+          {
+            "valor": "4,9",
+            "rotulo": "nota no Google"
+          },
+          {
+            "valor": "88",
+            "rotulo": "avaliações de clientes",
+            "contar": 88
+          },
+          {
+            "valor": "6",
+            "rotulo": "dias por semana de atendimento",
+            "contar": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "galeria",
+      "variant": "reels",
+      "data": {
+        "titulo": "No Instagram da ABBA",
+        "lead": "O dia a dia das salas, postado pela própria equipe.",
+        "perfil": {
+          "texto": "@abbacentro",
+          "href": "https://www.instagram.com/abbacentro/"
+        },
+        "itens": [
+          {
+            "imagem": "midia/ig-ultraplace.jpg",
+            "legenda": "Ultraplace no contorno corporal",
+            "link": "https://www.instagram.com/abbacentro/p/DePzwa3n-pE/"
+          },
+          {
+            "imagem": "midia/ig-manicure.jpg",
+            "legenda": "Manicure e pedicure",
+            "link": "https://www.instagram.com/abbacentro/reel/DdJhAuTuVZ3/"
+          },
+          {
+            "imagem": "midia/ig-unhas.jpg",
+            "legenda": "Alongamento no molde F1",
+            "link": "https://www.instagram.com/abbacentro/p/DdbrFlyDi51/"
+          },
+          {
+            "imagem": "midia/ig-massagem.jpg",
+            "legenda": "Massagem relaxante",
+            "link": "https://www.instagram.com/abbacentro/reel/DdBj-zORKnu/"
+          },
+          {
+            "imagem": "midia/ig-drenagem.jpg",
+            "legenda": "Uma pausa para o corpo",
+            "link": "https://www.instagram.com/abbacentro/reel/DcbZEUtun5G/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "O que as clientes contam",
+        "itens": [
+          {
+            "texto": "Nem sabia que era possível uma limpeza de pele sem dor. Agora não tenho coragem de fazer com outra pessoa.",
+            "autor": "Renata M.",
+            "contexto": "Google"
+          },
+          {
+            "texto": "Fiz extensão de cílios, sobrancelha e buço com a Fran. Muito querida e competente, amei o resultado.",
+            "autor": "Renata B.",
+            "contexto": "Google"
+          },
+          {
+            "texto": "Atendimento acolhedor, preço acessível e profissionalismo do começo ao fim.",
+            "autor": "Márcia O.",
+            "contexto": "Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Dúvidas comuns",
+        "itens": [
+          {
+            "p": "Dá para fazer mais de um procedimento no mesmo dia?",
+            "r": "Dá. A recepção encaixa os horários em sequência, e você só troca de sala."
+          },
+          {
+            "p": "A limpeza de pele dói?",
+            "r": "A extração é feita com calma e cuidado. É o que as clientes mais comentam nas avaliações do Google."
+          },
+          {
+            "p": "Homem também é atendido?",
+            "r": "Sim. Massagem, drenagem e limpeza de pele são para todo mundo, em qualquer idade."
+          },
+          {
+            "p": "Atende no sábado?",
+            "r": "Sim, das 8h à uma da tarde. De segunda a sexta, das 8h às 18h."
+          },
+          {
+            "p": "A clínica tem acessibilidade?",
+            "r": "Tem entrada e estacionamento acessíveis para quem usa cadeira de rodas."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica",
+        "imagem": "midia/recepcao.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Reserve uma hora para você",
+        "lead": "Mande uma mensagem e a recepção encaixa o melhor horário da semana, um cuidado depois do outro.",
+        "cta": "Marcar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {}
+    }
+  ]
+}

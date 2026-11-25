@@ -1,0 +1,65 @@
+<section class="blk-casa" id="casa">
+  <div class="wrap">
+    <div class="blk-casa__cab" data-reveal>
+      <p class="blk-casa__eyebrow">A casa da Pedro Marcos Prado</p>
+      <h2 class="blk-casa__titulo">Cada cuidado tem a sua sala</h2>
+      <p class="blk-casa__lead" data-acende>A ABBA funciona num sobrado no Lima Azevedo. Você marca a drenagem, a limpeza de pele e a unha no mesmo dia e só troca de sala.</p>
+    </div>
+    <ol class="blk-casa__lista">
+      <li class="blk-casa__item" data-reveal style="--d:0ms">
+        <figure class="blk-casa__foto"><!--foto:midia/recepcao.jpg|Recepção da ABBA, com balcão de mármore branco, logo na parede e luminária dourada--></figure>
+        <div class="blk-casa__txt">
+          <span class="blk-casa__ic"><!--icone:conversa--></span>
+          <h3>A recepção</h3>
+          <p>Onde a visita começa. Daqui sai o horário de cada etapa, para você não esperar entre uma sala e outra.</p>
+        </div>
+      </li>
+      <li class="blk-casa__item" data-reveal style="--d:90ms">
+        <figure class="blk-casa__foto"><!--foto:midia/sala-corpo.jpg|Sala de estética corporal da ABBA, com maca azul e aparelhos ao lado da janela de madeira--></figure>
+        <div class="blk-casa__txt">
+          <span class="blk-casa__ic"><!--icone:mao--></span>
+          <h3>A sala do corpo</h3>
+          <p>Drenagem, massagem e os protocolos com Ultraplace, montados a partir do que você quer tratar.</p>
+        </div>
+      </li>
+      <li class="blk-casa__item" data-reveal style="--d:180ms">
+        <figure class="blk-casa__foto"><!--foto:midia/sala-rosto.jpg|Sala de estética facial da ABBA, com o nome da clínica na parede e aparelhos sobre a bancada--></figure>
+        <div class="blk-casa__txt">
+          <span class="blk-casa__ic"><!--icone:pele--></span>
+          <h3>A sala do rosto</h3>
+          <p>Limpeza de pele feita com calma, cílios e sobrancelha. É a sala que as clientes mais citam no Google.</p>
+        </div>
+      </li>
+      <li class="blk-casa__item" data-reveal style="--d:270ms">
+        <figure class="blk-casa__foto"><!--foto:midia/unhas.jpg|Espaço de unhas da ABBA, com mesa de manicure e prateleira iluminada de esmaltes--></figure>
+        <div class="blk-casa__txt">
+          <span class="blk-casa__ic"><!--icone:unha--></span>
+          <h3>O espaço das unhas</h3>
+          <p>Manicure, pedicure, esmaltação em gel e alongamento no molde F1, com a parede de cores para escolher.</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-casa{padding-block:var(--sp-section);background:color-mix(in srgb,var(--pulse) 7%,var(--bg))}
+.blk-casa__cab{max-width:46rem;margin-bottom:var(--sp-5)}
+.blk-casa__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-casa__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-casa__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-casa__lista{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-4)}
+.blk-casa__item{overflow:hidden;border-radius:var(--radius);background:var(--bg);border:1px solid color-mix(in srgb,var(--brand) 14%,transparent);box-shadow:0 14px 34px -20px color-mix(in srgb,var(--brand) 50%,transparent)}
+.blk-casa__foto{margin:0}
+.blk-casa__foto img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover}
+.blk-casa__txt{position:relative;padding:var(--sp-4)}
+.blk-casa__ic{position:absolute;top:calc(-1.6rem);right:var(--sp-4);display:grid;place-items:center;width:3.2rem;height:3.2rem;border-radius:50%;background:var(--brand);color:var(--bg);box-shadow:0 8px 20px -8px color-mix(in srgb,var(--brand) 70%,transparent)}
+.blk-casa__ic svg{width:1.5rem;height:1.5rem}
+.blk-casa__txt h3{margin:0 0 .4rem;font-family:var(--f-display);font-size:1.6rem;line-height:1.1;color:var(--ink)}
+.blk-casa__txt p{margin:0;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+@media (min-width:760px){
+  .blk-casa__lista{grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--sp-5) var(--sp-4)}
+  .blk-casa__item:nth-child(even){transform:translateY(3rem)}
+  .blk-casa{padding-bottom:calc(var(--sp-section) + 3rem)}
+}
+</style>
